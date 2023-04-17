@@ -1,0 +1,107 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Raleway:ital,wght@1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* Fontawesome */
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+/* Importing all components file */
+@import url("components/button.css");
+@import url("components/card.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* BANNER */
+
+.banner {
+  background-image: url(https://source.unsplash.com/EOAnV_C1a4w);
+  background-size: cover;
+  height: 250px;
+  background-position: center;
+  padding: 200px 0px;
+}
+
+.banner-container {
+  width: 1300px;
+
+  margin: auto;
+  padding: 20px;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 40px;
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 0;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 40px;
+  font-family: "Cormorant Garamond", serif;
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  font-weight: lighter;
+}
+
+
+
+/* BOX */
+.body-container {
+  width: 1300px;
+  margin: 20px auto;
+}
+
+.body-container h1 {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color:#e7c5a6 ;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.footer h2 {
+  font-size: 20px;
+  color: white;
+  margin-top: 0px;
+}
+
+li {
+  display: inline-block;
+margin: 10px;
+  font-size: 50px;
+}
+
+.socials-medias {
+  margin: 0;
+  padding: 10px;
+  color: white;
+}
+
+.socials-medias a:visited {
+  color: white;
+}
